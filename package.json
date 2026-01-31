@@ -1,0 +1,39 @@
+{
+  "name": "caramex",
+  "version": "0.1.0",
+  "description": "A minimal CLI for initializing Express.js projects and adding feature-based routes and controllers.",
+  "bin": {
+    "caramex": "bin/caramex.js"
+  },
+  "type": "module",
+  "scripts": {
+    "test": "node --test"
+  },
+  "keywords": [
+    "cli",
+    "express",
+    "expressjs",
+    "node",
+    "nodejs",
+    "scaffold",
+    "scaffolding",
+    "generator",
+    "boilerplate",
+    "backend",
+    "api",
+    "tooling",
+    "developer-tools"
+  ],
+  "files": [
+    "bin",
+    "commands",
+    "core",
+    "utils",
+    "templates"
+  ],
+  "author": "Aniket Dinde <aniketmdinde@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "@inquirer/prompts": "^8.2.0"
+  }
+}
