@@ -1,6 +1,6 @@
 {
   "name": "caramex",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "A minimal CLI for initializing Express.js projects and adding feature-based routes and controllers.",
   "bin": {
     "caramex": "bin/caramex.js"
