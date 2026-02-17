@@ -16,7 +16,7 @@ export async function registerRoute(feature) {
     }
 
     const importStatement = `import ${helpers.lowercase(feature)}Routes from "./routes/${helpers.lowercase(feature)}.routes.js"`;
-    const registerStatement = `app.use("/${helpers.lowercase(feature)}", ${helpers.lowercase(feature)}Routes)`;
+    const registerStatement = `app.use("/api/${helpers.lowercase(feature)}", ${helpers.lowercase(feature)}Routes)`;
 
     let data;
     try {
